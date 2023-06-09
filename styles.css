@@ -1,0 +1,88 @@
+
+h1 {
+    color: #544410;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(45deg, #FFDFB3, #FFEAC4, #FFF6D5);
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(116, 75, 46);
+    background: linear-gradient(45deg, #FFDFB3, #FFEAC4, #FFF6D5);
+    padding: .5em;
+  }
+
+  h3{
+    text-align: center;
+    text-decoration-line: underline;
+    color: #2f270f;
+    
+  }
+  
+  #intro {
+    font-weight: lighter;
+    text-align: center;
+    color: #40381d;
+  }
+
+  li {
+    text-align: center;
+    color: #ece7e6;
+    list-style-type: none;
+  }
+  
+  ul li:nth-child(odd) {
+    font-weight: bold;
+  }
+
+  ul li:nth-child(even) {
+    background-color:#da7735;
+  }
+  
+  div.wrapper {
+    width: 80vw; 
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ED7D3A; 
+  }
+  
+  body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(45deg, #FFA500, #FFC400, #FFEC00);
+    background-image: url(javier-garcia-chavez-bdZ3bzRde5g-unsplash.jpg);
+  }
+
+  img {
+    width: 100%;     
+    max-width: 300px;
+    height: auto;
+    padding: .5em;
+    filter: grayscale(50%) contrast(150%); 
+  }
+ 
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  section {
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
